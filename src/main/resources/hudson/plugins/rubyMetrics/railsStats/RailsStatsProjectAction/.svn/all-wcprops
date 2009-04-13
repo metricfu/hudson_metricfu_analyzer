@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/railsStats/RailsStatsProjectAction
+END
+nodata.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/railsStats/RailsStatsProjectAction/nodata.jelly
+END
+floatingBox.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/railsStats/RailsStatsProjectAction/floatingBox.jelly
+END

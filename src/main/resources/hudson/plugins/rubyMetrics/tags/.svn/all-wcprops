@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/tags
+END
+taglib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/tags/taglib
+END
+tableGraph.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/tags/tableGraph.jelly
+END
+floatingBox.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/tags/floatingBox.jelly
+END

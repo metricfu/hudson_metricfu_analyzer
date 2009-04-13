@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/rcov/RcovProjectAction
+END
+nodata.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/rcov/RcovProjectAction/nodata.jelly
+END
+floatingBox.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/rcov/RcovProjectAction/floatingBox.jelly
+END

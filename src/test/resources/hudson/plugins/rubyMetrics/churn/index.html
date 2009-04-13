@@ -1,0 +1,336 @@
+<html>
+<head>
+	<title>Source Control Churn Results</title>
+	<style>
+	body {
+	background-color: #efefef;
+	margin: 20px;
+	padding: 0;
+	font: 12px verdana, arial, helvetica;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #666;
+	background: #fff;
+	margin-bottom: 20px;	
+}
+
+	table tr.light {
+	 	background: #fff;
+	}
+
+	table tr.dark {
+		background: #f9f9f9;
+	}
+
+	table td, table th {
+		padding: 4px 10px;
+		font-size: 13px;
+	}
+	table th {
+		text-align: center;
+		color: #fc0;
+		background: #336;		
+		font-weight: bold;
+		border: #d0d0d0 1px solid;
+	}
+
+	table td {
+		border: #d0d0d0 1px solid;
+	}
+	
+		table td.score {
+			text-align: right;
+		}	
+
+.warning {
+	background: yellow;
+}	
+	</style>
+</head>
+
+<body>
+	<h1>Source Control Churn Results</h1>
+	<p>Files that change a lot in your project may be bad a sign.
+	  This task uses your source control log to identify those files.
+	  </p>
+	<table>
+		<tr><th>File Path</th><th>Times Changed</th></tr>
+		
+		<tr><td>app/views/text_elements/_form.html.erb</td><td class='warning'>59</td></tr>
+		
+		<tr><td>app/controllers/text_elements_controller.rb</td><td class='warning'>54</td></tr>
+		
+		<tr><td>app/views/layouts/admin.html.erb</td><td class='warning'>53</td></tr>
+		
+		<tr><td>app/models/element.rb</td><td class='warning'>51</td></tr>
+		
+		<tr><td>app/controllers/tags_controller.rb</td><td class='warning'>49</td></tr>
+		
+		<tr><td>app/views/tags/index.html.erb</td><td class='warning'>48</td></tr>
+		
+		<tr><td>public/stylesheets/base.css</td><td class='warning'>43</td></tr>
+		
+		<tr><td>app/controllers/elements_controller.rb</td><td class='warning'>42</td></tr>
+		
+		<tr><td>app/models/tag.rb</td><td class='warning'>35</td></tr>
+		
+		<tr><td>config/routes.rb</td><td class='warning'>35</td></tr>
+		
+		<tr><td>config/database.yml</td><td class='warning'>31</td></tr>
+		
+		<tr><td>README</td><td class='warning'>29</td></tr>
+		
+		<tr><td>app/views/elements/_form.html.erb</td><td class='warning'>25</td></tr>
+		
+		<tr><td>app/controllers/image_elements_controller.rb</td><td class='warning'>24</td></tr>
+		
+		<tr><td>log/test.log</td><td class='warning'>23</td></tr>
+		
+		<tr><td>app/views/text_elements/index.html.erb</td><td class='warning'>23</td></tr>
+		
+		<tr><td>app/controllers/segments_controller.rb</td><td class='warning'>22</td></tr>
+		
+		<tr><td>app/views/publishing/_publish.html.erb</td><td class='warning'>22</td></tr>
+		
+		<tr><td>app/views/tag_elements/index.html.erb</td><td class='warning'>21</td></tr>
+		
+		<tr><td>app/helpers/application_helper.rb</td><td class='warning'>21</td></tr>
+		
+		<tr><td>log/development.log</td><td class='warning'>21</td></tr>
+		
+		<tr><td>app/controllers/application.rb</td><td class='warning'>20</td></tr>
+		
+		<tr><td>public/javascripts/Cms.js</td><td class='warning'>20</td></tr>
+		
+		<tr><td>app/views/tags/_tag_line.html.erb</td><td class='warning'>18</td></tr>
+		
+		<tr><td>app/controllers/tag_elements_controller.rb</td><td class='warning'>17</td></tr>
+		
+		<tr><td>app/controllers/link_elements_controller.rb</td><td class='warning'>17</td></tr>
+		
+		<tr><td>app/models/text_element.rb</td><td class='warning'>16</td></tr>
+		
+		<tr><td>config/environment.rb</td><td class='warning'>16</td></tr>
+		
+		<tr><td>app/views/tags/_remote_form.erb</td><td class='warning'>16</td></tr>
+		
+		<tr><td>.gitignore</td><td class='warning'>15</td></tr>
+		
+		<tr><td>app/builders/auto_complete.rb</td><td class='warning'>15</td></tr>
+		
+		<tr><td>app/models/tag_element.rb</td><td class='warning'>15</td></tr>
+		
+		<tr><td>app/views/tags/create.js.rjs</td><td class='warning'>15</td></tr>
+		
+		<tr><td>test/functional/elements_controller_test.rb</td><td class='warning'>15</td></tr>
+		
+		<tr><td>public/javascripts/application.js</td><td class='warning'>14</td></tr>
+		
+		<tr><td>app/views/image_elements/_form.html.erb</td><td class='warning'>14</td></tr>
+		
+		<tr><td>test/functional/tags_controller_test.rb</td><td class='warning'>14</td></tr>
+		
+		<tr><td>app/controllers/users_controller.rb</td><td class='warning'>13</td></tr>
+		
+		<tr><td>app/views/text_elements/show.html.erb</td><td class='warning'>13</td></tr>
+		
+		<tr><td>app/views/shared/_element_search.html.erb</td><td class='warning'>13</td></tr>
+		
+		<tr><td>app/models/user.rb</td><td class='warning'>13</td></tr>
+		
+		<tr><td>app/views/tags/update.js.rjs</td><td class='warning'>13</td></tr>
+		
+		<tr><td>app/views/elements/index.html.erb</td><td class='warning'>12</td></tr>
+		
+		<tr><td>app/models/image_element.rb</td><td class='warning'>12</td></tr>
+		
+		<tr><td>app/views/text_elements/edit.html.erb</td><td class='warning'>11</td></tr>
+		
+		<tr><td>test/fixtures/tag_elements.yml</td><td class='warning'>11</td></tr>
+		
+		<tr><td>app/helpers/auto_complete_form_builder.rb</td><td class='warning'>11</td></tr>
+		
+		<tr><td>app/views/link_elements/_form.html.erb</td><td class='warning'>11</td></tr>
+		
+		<tr><td>app/views/tags/_paginator.html.erb</td><td class='warning'>11</td></tr>
+		
+		<tr><td>app/helpers/tooltip_helper.rb</td><td class='warning'>11</td></tr>
+		
+		<tr><td>test/functional/users_controller_test.rb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>app/views/text_elements/new.html.erb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>Rakefile</td><td class='warning'>10</td></tr>
+		
+		<tr><td>app/views/link_elements/index.html.erb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>app/views/sources/index.html.erb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>db/schema.rb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>app/views/image_elements/index.html.erb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>test/unit/user_test.rb</td><td class='warning'>10</td></tr>
+		
+		<tr><td>test/unit/segment_test.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>test/functional/text_elements_controller_test.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>test/unit/source_type_test.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/views/users/index.html.erb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>public/stylesheets/colors.css</td><td class='warning'>9</td></tr>
+		
+		<tr><td>test/functional/groups_controller_test.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/views/groups/index.html.erb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/models/source.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/controllers/groups_controller.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/models/link_element.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/models/source_type.rb</td><td class='warning'>9</td></tr>
+		
+		<tr><td>app/views/segments/index.html.erb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>test/fixtures/elements.yml</td><td class='warning'>8</td></tr>
+		
+		<tr><td>public/javascripts/common.util.js</td><td class='warning'>8</td></tr>
+		
+		<tr><td>config/database-hudson.yml</td><td class='warning'>8</td></tr>
+		
+		<tr><td>app/views/source_types/index.html.erb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>test/unit/search_test.rb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>app/models/segment.rb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>test/unit/text_element_test.rb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>app/controllers/source_types_controller.rb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>test/functional/sources_controller_test.rb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>test/functional/source_types_controller_test.rb</td><td class='warning'>8</td></tr>
+		
+		<tr><td>test/test_helper.rb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>app/views/sources/_form.html.erb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>app/views/users/show.html.erb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>test/unit/image_element_test.rb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>app/views/image_elements/show.html.erb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>app/controllers/sources_controller.rb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>app/views/elements/_related_elements_form.html.erb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>app/views/users/_form.html.erb</td><td class='warning'>7</td></tr>
+		
+		<tr><td>test/functional/link_elements_controller_test.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/views/elements/_textelement.html.erb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/models/group.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/views/tags/edit.html.erb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/helpers/pagination_helper.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/models/search.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/views/segments/new.html.erb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/helpers/navigation_helper.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>public/javascripts/segments.js</td><td class='warning'>6</td></tr>
+		
+		<tr><td>test/unit/source_test.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>public/javascripts/jquery.accordionmenu.js</td><td class='warning'>6</td></tr>
+		
+		<tr><td>public/stylesheets/scaffold.css</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/views/sources/show.html.erb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/views/elements/_imageelement.html.erb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>test/unit/tag_element_test.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>test/functional/image_elements_controller_test.rb</td><td class='warning'>6</td></tr>
+		
+		<tr><td>app/views/tags/new.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>tags</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/image_elements/new.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/tag_elements/_tag_per_element.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/text_elements/update.js.rjs</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/tags/_element_types_count.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>log/server.log</td><td class='warning'>5</td></tr>
+		
+		<tr><td>test/fixtures/tags.yml</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/text_elements/create.js.rjs</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/sources/new.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/elements/_textelement_edit.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>test/fixtures/sources.yml</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/lib/search.rb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/source_types/show.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/image_elements/edit.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/tags/_form.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>config/.database.yml.swp</td><td class='warning'>5</td></tr>
+		
+		<tr><td>test/functional/segments_controller_test.rb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/text_elements/_paginator.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/tags/show.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>public/javascripts/tag.list.js</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/models/element_relationship.rb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>nbproject/private/rake-d.txt</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/source_types/new.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>test/unit/tag_test.rb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/tags/show.js.rjs</td><td class='warning'>5</td></tr>
+		
+		<tr><td>config/environments/development.rb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/elements/_view.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/source_types/edit.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>app/views/groups/edit.html.erb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>test/unit/element_test.rb</td><td class='warning'>5</td></tr>
+		
+		<tr><td>log/production.log</td><td class='warning'>5</td></tr>
+		
+	</table>
+	<p>Generated on Sat Apr 11 13:56:18 -0300 2009</p>	
+</body>
+</html>

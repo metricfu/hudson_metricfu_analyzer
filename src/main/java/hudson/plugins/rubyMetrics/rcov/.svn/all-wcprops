@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/rcov
+END
+RcovParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/rcov/RcovParser.java
+END
+RcovPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/rcov/RcovPublisher.java
+END
+RcovBuildAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/rcov/RcovBuildAction.java
+END
+RcovProjectAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/rcov/RcovProjectAction.java
+END

@@ -1,0 +1,30 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:rcov="/hudson/plugins/rubyMetrics/tags">  
+	<l:layout xmlns:rcov="/hudson/plugins/rubyMetrics/tags" css="/plugin/rubyMetrics/css/style.css">
+	    <l:main-panel>
+	            <h1>Churn report</h1>
+	            
+	            <j:if test="${it.previousResult != null}">
+	            	<img src="graph" width="500px" height="200px"/>
+	            </j:if>
+	            
+	            <table class="report">
+	            	<thead>
+	            		<tr>
+	            			<td class='heading'>File path</td>
+	            			<td class='heading'>Times Changed</td>
+				      	</tr>
+				    </thead>
+				    <tbody>			    	
+				    	<j:forEach var="result" items="${it.results.results}">
+				    		<tr>
+					    		<td>${result.file}</td>
+					    		<td>${result.value}</td>
+					    	</tr>
+				    	</j:forEach>
+				    </tbody>
+				 </table>
+	            
+	     </l:main-panel>
+    </l:layout>
+</j:jelly>

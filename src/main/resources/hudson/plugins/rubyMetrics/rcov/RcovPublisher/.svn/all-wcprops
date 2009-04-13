@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/rcov/RcovPublisher
+END
+config.jelly
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/resources/hudson/plugins/rubyMetrics/rcov/RcovPublisher/config.jelly
+END

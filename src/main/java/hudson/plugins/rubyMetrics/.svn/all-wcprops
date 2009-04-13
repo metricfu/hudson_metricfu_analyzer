@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics
+END
+PluginImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/PluginImpl.java
+END
+AbstractRubyMetricsProjectAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/AbstractRubyMetricsProjectAction.java
+END
+RubyMetricsPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/RubyMetricsPublisher.java
+END
+AbstractRubyMetricsBuildAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/AbstractRubyMetricsBuildAction.java
+END

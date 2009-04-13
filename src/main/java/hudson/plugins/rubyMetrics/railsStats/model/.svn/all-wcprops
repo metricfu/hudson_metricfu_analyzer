@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/railsStats/model
+END
+RailsStatsMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/railsStats/model/RailsStatsMetrics.java
+END
+RailsStatsResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/hudson/!svn/ver/12311/tags/rubyMetrics-1.2.2/src/main/java/hudson/plugins/rubyMetrics/railsStats/model/RailsStatsResults.java
+END
